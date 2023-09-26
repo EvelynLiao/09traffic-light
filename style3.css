@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerBox {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+
+}
+
+.red, .yellow, .green {
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+    border-color: rgb(143, 1, 1);
+}
+
+.red1 {
+    background-color: rgb(246, 144, 144);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: rgb(122, 122, 0);
+}
+
+.yellow1 {
+    background-color: rgb(240, 240, 149);
+    height:50px ;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.green {
+    background-color: green;
+    border-color: rgb(0, 43, 0);
+}
+
+.green1 {
+    background-color: rgb(171, 241, 172);
+    height:50% ;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
